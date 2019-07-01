@@ -148,7 +148,7 @@ static CTTabbarController *tabbarController = nil;
     
     //工单页
     self.vc2 = [[ViewController alloc] init];
-    self.vc2.view.backgroundColor = [UIColor blueColor];
+    self.vc2.view.backgroundColor = [UIColor redColor];
     UINavigationController *orderVCNav = [[UINavigationController alloc] initWithRootViewController:self.vc2];
     
     //发布
