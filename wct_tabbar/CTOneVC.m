@@ -18,7 +18,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor cyanColor];
+    self.view.backgroundColor = [UIColor blueColor];
     [self.backBtn setFrame:CGRectMake(100, 100, 100, 100)];
     [self.view addSubview:self.backBtn];
     
@@ -39,7 +39,7 @@
     if (_backBtn == nil) {
         _backBtn = [[UIButton alloc] init];
         [_backBtn addTarget:self action:@selector(backAction) forControlEvents:UIControlEventTouchUpInside];
-        _backBtn.backgroundColor = [UIColor cyanColor];
+        _backBtn.backgroundColor = [UIColor blueColor];
         [_backBtn setTitle:@"跳转2" forState:UIControlStateNormal];
     }
     return _backBtn;
